@@ -1,0 +1,10 @@
+# Tu dong chuan hoa dinh dang xuong dong
+* text=auto
+
+# Co dinh dinh dang CRLF cho file chay Windows
+*.bat text eol=crlf
+*.cmd text eol=crlf
+
+# Git LFS hoac file nhi phan
+*.jpg binary
+*.png binary

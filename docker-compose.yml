@@ -1,0 +1,17 @@
+services:
+  bigdata-fps:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: bigdata-fps-engine
+    restart: "no"
+    tty: true
+    stdin_open: true
+    ports:
+      - "8501:8501"
+      - "4040:4040"
+    volumes:
+      - .:/app
+    environment:
+      - PYTHONUNBUFFERED=1
+      - TZ=Asia/Ho_Chi_Minh

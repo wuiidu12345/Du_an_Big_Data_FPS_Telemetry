@@ -1,0 +1,30 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Thu muc sinh ra trong qua trinh thuc thi Spark & Pipeline
+dataset/processed_parquet/
+spark-warehouse/
+metastore_db/
+derby.log
+*.parquet
+
+# Moi truong ao va Docker
+.venv/
+env/
+venv/
+.pytest_cache/
+
+# Streamlit va Trinh duyet
+.streamlit/
+
+# IDE cau hinh ca nhan
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# He dieu hanh
+.DS_Store
+Thumbs.db
